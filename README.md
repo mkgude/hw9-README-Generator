@@ -1,4 +1,9 @@
 # README
+  #### Questions
+  * [mkgude](https://github.com/mkgude)
+  * mkgude@gmail.com
+  * [badge](https://img.shields.io/npm/l/MIT)
+  # Table of Contents
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
@@ -15,9 +20,6 @@
   ### License
   * MIT
   ### Contributing
-  * undefined
+  * TEST
   ### Tests
-  * undefined
-  #### Questions
-  * [mkgude](https://github.com/mkgude)
-  * mkgude@gmail.com
+  * TEST

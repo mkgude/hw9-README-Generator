@@ -14,6 +14,16 @@ const questions = [
   },
   {
     type: "input",
+    message: "What is my Github profile?",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "What is my email address?",
+    name: "email",
+  },
+  {
+    type: "input",
     message: "What is your description?",
     name: "description",
   },
@@ -48,16 +58,6 @@ const questions = [
     type: "input",
     message: "How do I test this??",
     name: "testing",
-  },
-  {
-    type: "input",
-    message: "What is my Github profile?",
-    name: "github",
-  },
-  {
-    type: "input",
-    message: "What is my email address?",
-    name: "email",
   },
 ];
 
