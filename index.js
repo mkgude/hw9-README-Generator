@@ -9,44 +9,38 @@ var fs = require("fs");
 const questions = [
   {
     type: "input",
-    message: "What is the title?",
+    message: "What is the title of your application?",
     name: "title",
   },
   {
     type: "input",
-    message: "What is my Github profile?",
+    message: "What is your Github profile?",
     name: "github",
   },
   {
     type: "input",
-    message: "What is my email address?",
+    message: "What is your email address?",
     name: "email",
   },
   {
     type: "input",
-    message: "What is your description?",
+    message: "What is your description of the application?",
     name: "description",
   },
   {
     type: "input",
-    message: "Please describe how to install this?",
+    message: "Please describe how to install?",
     name: "installation",
   },
   {
     type: "input",
-    message: "Please describe how to run this?",
+    message: "Please describe how to run?",
     name: "usage",
   },
   {
     type: "checkbox",
-    message: "What type of license?",
-    choices: [
-      "MIT",
-      "creative commons",
-      "GNU Public License",
-      "Apache",
-      "None",
-    ],
+    message: "What type of license? (if none, select 'None')",
+    choices: ["MIT", "Apache", "None"],
     name: "license",
   },
   {
@@ -56,7 +50,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do I test this??",
+    message: "How do I test?",
     name: "testing",
   },
 ];

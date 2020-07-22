@@ -1,8 +1,8 @@
 # README
   #### Questions
-  * [mkgude](https://github.com/mkgude)
+  * [GitHub Repository Link](https://github.com/mkgude)
   * mkgude@gmail.com
-  * [badge](https://img.shields.io/npm/l/MIT)
+  * ![NPM](https://img.shields.io/npm/l/Apache)
   # Table of Contents
   1. [Description](#description)
   2. [Installation](#installation)
@@ -18,7 +18,7 @@
   ### Usage
   * TEST
   ### License
-  * MIT
+  * Apache
   ### Contributing
   * TEST
   ### Tests

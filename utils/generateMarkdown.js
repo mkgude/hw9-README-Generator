@@ -2,9 +2,9 @@
 function generateMarkdown(data) {
   return `# ${data.title}
   #### Questions
-  * [${data.github}](https://github.com/${data.github})
+  * [GitHub Repository Link](https://github.com/${data.github})
   * ${data.email}
-  * [badge](https://img.shields.io/npm/l/${data.license})
+  * ![NPM](https://img.shields.io/npm/l/${data.license})
   # Table of Contents
   1. [Description](#description)
   2. [Installation](#installation)
