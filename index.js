@@ -38,7 +38,7 @@ const questions = [
     name: "usage",
   },
   {
-    type: "checkbox",
+    type: "list",
     message: "What type of license? (if none, select 'None')",
     choices: ["MIT", "ISC", "ODbL", "Unlicense", "None"],
     name: "license",
@@ -68,7 +68,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (response) {
     var markdownData = generateMarkdown(response);
-    writeToFile("README.md", markdownData);
+    writeToFile("./output/generated-readme.md", markdownData);
   });
 }
 
