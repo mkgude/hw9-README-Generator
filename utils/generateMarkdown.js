@@ -4,8 +4,8 @@ function generateMarkdown(data) {
   #### Questions
   * [GitHub Repository Link](https://github.com/${data.github})
   * ${data.email}
-  * ![NPM](https://img.shields.io/npm/l/${data.license})
-  # Table of Contents
+  * [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
+  ### Table of Contents
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
@@ -13,17 +13,17 @@ function generateMarkdown(data) {
   5. [Contributing](#contributing)
   6. [Tests](#tests)
   7. [Questions](#questions)
-  ### Description
+  ## Description
   * ${data.description}
-  ### Installation
+  ## Installation
   * ${data.installation}
-  ### Usage
+  ## Usage
   * ${data.usage}
-  ### License
+  ## License
   * ${data.license}
-  ### Contributing
+  ## Contributing
   * ${data.contribution}
-  ### Tests
+  ## Tests
   * ${data.testing}
 `;
 }
